@@ -1,0 +1,113 @@
+.cardbody{
+    border: 2px solid black;
+    padding: 1%;
+    margin: 1%;
+    font-size: 20px;
+    width: auto;
+    text-align: center;
+}
+s{
+    color:tomato;
+
+}
+p{
+    color: green;
+}
+h2{
+    color: lightseagreen;
+}
+button{
+    color:navy;
+    background-color: mediumseagreen;
+    width: 30%;
+    padding: 1%;
+}
+.card{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.cardbody img{
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media only screen and (min-width:320px) and (max-width:480px){
+    .cardbody{
+        border: 2px solid black;
+        padding: 1%;
+        margin: 1%;
+        font-size: 30px;
+        width: 90%;
+        text-align: center;
+        background-color:plum;
+    }
+    s{
+        color:tomato;
+    
+    }
+    p{
+        color: green;
+    }
+    h2{
+        color: lightseagreen;
+    }
+    button{
+        color:navy;
+        background-color: mediumseagreen;
+        width: 30%;
+        padding: 1%;
+    }
+    .card{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .cardbody img{
+        width: 90%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media only screen and (min-width:481px) and (max-width:768px){
+    .cardbody{
+        border: 2px solid black;
+        padding: 1%;
+        margin: 1%;
+        font-size: 30px;
+        width: 40%;
+        text-align: center;
+        background-color:royalblue;
+    }
+    s{
+        color:tomato;
+    
+    }
+    p{
+        color: green;
+    }
+    h2{
+        color: lightseagreen;
+    }
+    button{
+        color:navy;
+        background-color: mediumseagreen;
+        width: 30%;
+        padding: 1%;
+    }
+    .card{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .cardbody img{
+        width: 90%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
